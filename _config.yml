@@ -23,7 +23,7 @@ repository               : "eledt/eledt.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "newpic2.png"
   name             : "Elena Dal Torrione"
   pronouns         : # example: "she/her"  
   bio              : ""
@@ -38,7 +38,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=vSm5rHkAAAAJ&hl=it"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0009-0000-5895-7823""
+  orcid            : "https://orcid.org/0009-0000-5895-7823"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Elena-Dal-Torrione-2?ev=hdr_xprf"
