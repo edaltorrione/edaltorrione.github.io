@@ -6,19 +6,37 @@ author_profile: true
 ---
 
 <style>
-.research-papers { list-style-type: square; padding-left: 1.25em; }
-.research-papers > li { padding-left: 0.25em; margin-bottom: 1.5em; }
-.research-papers > li::marker { font-size: 0.8em; }
+.research-papers { list-style: none; padding-left: 0; }
+.research-papers > li { margin-bottom: 2em; }
+.research-papers h3 { margin: 0 0 0.5em; }
+.research-papers p { margin: 0.5em 0; }
+.research-papers .paper-status { font-size: 0.9em; }
+.research-papers .paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5em;
+  margin-top: 0.75em;
+  font-size: 0.85em;
+  font-weight: 600;
+}
 </style>
 
 <h2>Working papers</h2>
 
 <ul class="research-papers">
 
-<li><h3>Regression Discontinuity Designs Under Interference</h3>
+<li><h3><a href="https://arxiv.org/abs/2410.02727">Regression Discontinuity Designs Under Interference</a></h3>
 <p>With <a href="https://tiziardui.github.io/">T. Arduini</a> and <a href="https://ysph.yale.edu/profile/laura-forastiere/">L. Forastiere</a>.</p>
-<p>Conditionally accepted at <em>Quantitative Economics</em>.</p>
-<p><a href="https://arxiv.org/abs/2410.02727">Latest version on arXiv</a></p></li>
+<p class="paper-status"><time datetime="2026-09">September 2026</time> &middot; Conditionally accepted at <em>Quantitative Economics</em>.</p>
+<p>We develop methods to identify and estimate direct and indirect causal effects in regression discontinuity designs when units interact through a network. We apply our approach to PROGRESA to study the effects of cash transfers on school attendance.</p>
+<p class="paper-links">
+  <a href="{{ '/files/RDD_interf.pdf' | relative_url }}">PDF</a>
+  <span aria-hidden="true">&middot;</span>
+  <a href="https://arxiv.org/abs/2410.02727">arXiv</a>
+  <span aria-hidden="true">&middot;</span>
+  <a href="https://github.com/edaltorrione/rddinterf">Software</a>
+</p></li>
 
 <li><h3>Constrained Stochastic Policy Targeting under Heterogeneous Partial Interference</h3>
 <p>With <a href="https://www.chanpark.net/">C. Park</a> and <a href="https://ysph.yale.edu/profile/laura-forastiere/">L. Forastiere</a>.</p>
